@@ -3,7 +3,7 @@
 Erlang/OTP приложение: SIP-сервер (NkSIP) + HTTP REST API (Cowboy) в одном Docker-контейнере.
 
 ## Структура проекта
-
+```
 sipcall/
 ├── config
 │   └── sys.config
