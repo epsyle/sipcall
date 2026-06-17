@@ -34,5 +34,5 @@ docker run --network host -e TZ=Asia/Novosibirsk -it --rm sipcall
 Настраиваем Twinkle: domain=192.168.0.140, user=3003, password=test, UDP
 Регистрируем Twinkle
 Звоним на 3004 — sipcall обрывает вызов, сохраняет URI
-Выполняем url http://localhost:8080/api/call/3003 — sipcall перезванивает
+Выполняем curl http://localhost:8080/api/call/3003 — sipcall перезванивает
 Twinkle звонит
