@@ -1,0 +1,21 @@
+{application, sipcall,
+ [{description, "Erlang SIP/Web-приложение sipcall"},
+  {vsn, "0.1.0"},
+  {registered, [sipcall_sup]},
+  {mod, {sipcall_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    lager,
+    cowboy,
+    nksip,
+    jsx
+   ]},
+  {env, []},
+  {modules, [sipcall_app,
+             sipcall_sup,
+             sip_server,
+             http_call_handler]},
+  {licenses, ["MIT"]},
+  {links, []}
+ ]}.

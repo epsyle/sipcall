@@ -1,0 +1,10 @@
+{
+  "users": [
+    {
+      "userLogin": "3003",
+      "userPass": "test",
+      "userPhone": "3003",
+      "display_name": "Twinkle Test User"
+    }
+  ]
+}
