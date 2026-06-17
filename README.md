@@ -19,7 +19,7 @@ sipcall/
     ├── sipcall.app.src
     ├── sipcall_sup.erl
     └── sip_server.erl
-
+```
 
 
 Сборка и запуск
