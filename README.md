@@ -4,7 +4,7 @@ Erlang/OTP приложение: SIP-сервер (NkSIP) + HTTP REST API (Cowbo
 
 ## Структура проекта
 
-```
+-----
 sipcall/
 ├── config
 │   └── sys.config
