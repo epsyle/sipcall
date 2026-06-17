@@ -4,7 +4,6 @@ Erlang/OTP приложение: SIP-сервер (NkSIP) + HTTP REST API (Cowbo
 
 ## Структура проекта
 
------
 sipcall/
 ├── config
 │   └── sys.config
@@ -22,9 +21,12 @@ sipcall/
     └── sip_server.erl
 
 
+
+Сборка и запуск
+-----
+
 ```erl
 
-## Сборка и запуск
 docker build -t sipcall .
 docker run --network host -e TZ=Asia/Novosibirsk -it --rm sipcall
 
