@@ -22,7 +22,7 @@ sipcall/
     └── sip_server.erl
 
 
-```
+```erl
 
 ## Сборка и запуск
 docker build -t sipcall .
